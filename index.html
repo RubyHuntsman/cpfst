@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+
+    <div id="container">
+      <div class="pour"></div>
+      <div id="beaker">
+        <div class="beer-foam">
+          <div class="foam-1"></div>
+          <div class="foam-2"></div>
+          <div class="foam-3"></div>
+          <div class="foam-4"></div>
+          <div class="foam-5"></div>
+          <div class="foam-6"></div>
+          <div class="foam-7"></div>
+        </div>
+
+        <div id="liquid">
+
+          <div class="bubble bubble1"></div>
+          <div class="bubble bubble2"></div>
+          <div class="bubble bubble3"></div>
+          <div class="bubble bubble4"></div>
+          <div class="bubble bubble5"></div>
+        </div>
+      </div>
+    </div>
+    <center><div class="form-group col-lg-2">
+          <div class="row">
+                  <div class="col-md-2 col-md-offset-5"></div>
+            <form class="form-inline">
+                  <div class="form-group mb-2">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email" style="left:50%">
+                  </div>
+                  <div class="form-group mx-sm-3 mb-2">
+                    <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                  </div>
+                  <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+              </form>
+          </div>
+      </div></center>
+  <h2 class="animated drunk">Fill'er Up Barkeeper!</h2>
+    <div id="root"></div>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.pour') //Pour Me Another Drink, Bartender!
+          .delay(2000)
+          .animate({
+            height: '360px'
+            }, 1500)
+          .delay(1600)
+          .slideUp(500);
+
+        $('#liquid') // I Said Fill 'Er Up!
+          .delay(3400)
+          .animate({
+            height: '170px'
+          }, 2500);
+
+        $('.beer-foam') // Keep that Foam Rollin' Toward the Top! Yahooo!
+          .delay(3400)
+          .animate({
+            bottom: '200px'
+            }, 2500);
+        });
+      </script>
+  </body>
+</html>
