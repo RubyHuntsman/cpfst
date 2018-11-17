@@ -19,8 +19,8 @@
 	
 	<center>
 		<div>
-			
-			<font class="fonted" size = "100" > Beember </font>
+			<!-- Logo, zaciąga font z css i klasę odpowiedzialną za rozmiar-->
+			<i class="logo" style= "font-family :myFirstFont; color:white;"> Beember </i>
 			
 		</div>
 		  
@@ -50,30 +50,39 @@
     <div class="form-group col-lg-2">
           <div class="row">
 		  
-
+					<!-- Formularz logowania-->
+					<br size="1"></br> <!-- To robi odstępy między okienkami i guzikami-->
                   <div class="col-md-2 col-md-offset-5"></div>
             <form class="form-inline">
                   <div class="form-group mb-2">
                     <input type="email" class="form-control" id="inputEmail" placeholder="Email" style="left:50%">
                   </div>
+				
+				<p class="smaller">
                   <div class="form-group mx-sm-3 mb-2">
                     <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-                  </div>
-                  <p><a class="button_example btn" href="index.css" >Confirm identity</a></p>
+                  </div></p>
+                  <p><a class="button_example btn" href="index.css" >Confirm identity</a></p> <!-- dziedziczy z dwoch klas, button_example nadaje kolor a btn nadaje kształt i font-->
 				 
-			
-				<p><div>
+			<!-- Buttony facebook i inne takie-->
+				<p><div> 
+				<p class="small"> <!-- miały być odstępy ale trochę nie pamiętam czy działa, ale jest. -->
 				<a href="index.css" class="fb btn">
 					<i class="fa fa-facebook fa-fw"></i> Login with Facebook
-				</a> 
+				</a> </p>
 				</div>
+		
 				<div>
+				<p class="small">
 				<a href="index.css" class="twitter btn">
 					<i class="fa fa-twitter fa-fw"></i> Login with Twitter
-				</a></div>
-				<div><a href="index.css" class="google btn">
+				</a></p>
+				</div>
+			
+				<div>
+				<p class="small"><a href="index.css" class="google btn">
 					<i class="fa fa-google fa-fw"></i> Login with Google+
-				</a>
+				</a></p>
 					</p>
               </form>
           </div>
