@@ -1,9 +1,5 @@
 body {
- background-image: -webkit-linear-gradient(bottom, #C3E3FA, #1D6EAD);
- background-image: -moz-linear-gradient(bottom, #C3E3FA, #1D6EAD);
- background-image: -ms-linear-gradient(bottom, #C3E3FA, #1D6EAD);
- background-image: -o-linear-gradient(bottom, #C3E3FA, #1D6EAD);
- background-image: linear-gradient(to top, #C3E3FA, #1D6EAD);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#C3E3FA, endColorstr=#1D6EAD);
+  background: #f2f2f2;
   font-family: 'proxima-nova-soft', sans-serif;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
@@ -173,20 +169,10 @@ body {
 }
 .container .info h1 {
   margin: 0 0 15px;
-  padding:0px;
-  font-size: 50px;
+  padding: 0;
+  font-size: 24px;
   font-weight: 400;
-  
-  
-}
-
-.containter .info h2
-{
-	margin: 0 0 15px;
-  padding: 0px;
-  font-size: 50px;
-  font-weight: 400;
-	
+  color: #333333;
 }
 .container .info span {
   color: #666666;
@@ -198,10 +184,4 @@ body {
 }
 .container .info span .fa {
   color: #e74c3c;
-}
-@font-face { /*podpięcie czcionki, która musi być w tym samym folderze co projekt*/
-    font-family: myFirstFont;
-    src: url(SafirScript.ttf); 
-	
-
 }
