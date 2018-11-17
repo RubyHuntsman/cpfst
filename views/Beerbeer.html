@@ -24,6 +24,11 @@
 
   <body>
     <center>
+      <div>
+  			<!-- Logo, zaciąga font z css i klasę odpowiedzialną za rozmiar-->
+  			<i class="logo" style= "font-family :myFirstFont; color:white;"> Beember </i>
+
+  		</div>
       <img src="Beember.png" alt="logo">
       <h2>Sign up</h2>
 
@@ -31,30 +36,24 @@
 
 
     <div class="field">
-        <label for="user_name">Name</label><br>
-        <input type="text" name="user[name]" id="user_name">
+        <input type="text" class="form-control" id="user_name" placeholder="Name" style="left:50%">
     </div>
 
     <div class="field">
-        <label for="user_surname">Surname</label><br>
-        <input type="text" name="user[surname]" id="user_surname">
+        <input type="text" class="form-control" id="user_surname" placeholder="Surname" style="left:50%">
     </div>
 
     <div class="field">
-      <label for="user_email">Email</label><br>
-      <input autofocus="autofocus" autocomplete="email" type="email" value="" name="user[email]" id="user_email">
+      <input type="email" class="form-control" id="inputEmail" placeholder="Email" style="left:50%">
     </div>
 
     <div class="field">
-      <label for="user_password">Password</label>
-      <em>(6 characters minimum)</em>
       <br>
-      <input autocomplete="new-password" type="password" name="user[password]" id="user_password">
+      <input type="password" class="form-control" id="user_password" placeholder="Password (6 characters minimum)">
     </div>
 
     <div class="field">
-      <label for="user_password_confirmation">Password confirmation</label><br>
-      <input autocomplete="new-password" type="password" name="user[password_confirmation]" id="user_password_confirmation">
+      <input type="password" class="form-control" id="user_password_confirmation" placeholder="Password confirmation">
     </div>
 
     <div class="actions">

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #0e83cd 
+  background-color: #0e83cd
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -229,7 +229,7 @@ h2 {
 
 
 .animated.drunk {
-	
+
   -webkit-animation-duration:2s;
      -moz-animation-duration:2s;
           animation-duration:2s;
@@ -355,19 +355,19 @@ border:1px solid #ffc826; -webkit-border-radius: 7px; -moz-border-radius: 7px;bo
 .fb {
   background-color: #3B5998;
   color: white;
-  
+
 }
 
 .twitter {
   background-color: #55ACEE;
   color: white;
-  
+
 }
 
 .google {
   background-color: #dd4b39;
   color: white;
-  
+
 }
 
 .button_signup{
@@ -412,8 +412,8 @@ input:hover,
 
 @font-face { /*podpięcie czcionki, która musi być w tym samym folderze co projekt*/
     font-family: myFirstFont;
-    src: url(SafirScript.ttf); 
-	
+    src: url(SafirScript.ttf);
+
 
 }
 
@@ -441,7 +441,7 @@ i.logo{
 body {
   margin: 0;
   padding: 0;
-  background-color: #0e83cd 
+  background-color: #0e83cd
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -493,7 +493,9 @@ h2 {
   position: absolute;
 
 }
-
+div{
+  margin-bottom: 1%;
+}
 .pour {
   position: absolute;
   top: 10px;
@@ -669,7 +671,7 @@ h2 {
 
 
 .animated.drunk {
-	
+
   -webkit-animation-duration:2s;
      -moz-animation-duration:2s;
           animation-duration:2s;
@@ -795,19 +797,19 @@ border:1px solid #ffc826; -webkit-border-radius: 7px; -moz-border-radius: 7px;bo
 .fb {
   background-color: #3B5998;
   color: white;
-  
+
 }
 
 .twitter {
   background-color: #55ACEE;
   color: white;
-  
+
 }
 
 .google {
   background-color: #dd4b39;
   color: white;
-  
+
 }
 
 .button_signup{
@@ -830,6 +832,43 @@ border:1px solid #829efd; -webkit-border-radius: 7px; -moz-border-radius: 7px;bo
  background-image: linear-gradient(to bottom, #C3E3FA, #1D6EAD);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#C3E3FA, endColorstr=#1D6EAD);
  }
 
+ a{
+ border:1px solid #829efd; -webkit-border-radius: 7px; -moz-border-radius: 7px;border-radius: 7px;font-size:12px; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);; color: #FFFFFF;
+  background-color: #B9C9FE; background-image: -webkit-gradient(linear, left top, left bottom, from(#B9C9FE), to(#3491B3));
+  background-image: -webkit-linear-gradient(top, #B9C9FE, #3491B3);
+  background-image: -moz-linear-gradient(top, #B9C9FE, #3491B3);
+  background-image: -ms-linear-gradient(top, #B9C9FE, #3491B3);
+  background-image: -o-linear-gradient(top, #B9C9FE, #3491B3);
+  background-image: linear-gradient(to bottom, #B9C9FE, #3491B3);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#B9C9FE, endColorstr=#3491B3);
+ }
+
+ a:hover{
+  border:1px solid #547bfd;
+  background-color: #C3E3FA; background-image: -webkit-gradient(linear, left top, left bottom, from(#C3E3FA), to(#1D6EAD));
+  background-image: -webkit-linear-gradient(top, #C3E3FA, #1D6EAD);
+  background-image: -moz-linear-gradient(top, #C3E3FA, #1D6EAD);
+  background-image: -ms-linear-gradient(top, #C3E3FA, #1D6EAD);
+  background-image: -o-linear-gradient(top, #C3E3FA, #1D6EAD);
+  background-image: linear-gradient(to bottom, #C3E3FA, #1D6EAD);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#C3E3FA, endColorstr=#1D6EAD);
+  }
+  input[type=submit]{
+    border:1px solid #829efd; -webkit-border-radius: 7px; -moz-border-radius: 7px;border-radius: 7px;font-size:12px; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);; color: #FFFFFF;
+     background-color: #B9C9FE; background-image: -webkit-gradient(linear, left top, left bottom, from(#B9C9FE), to(#3491B3));
+     background-image: -webkit-linear-gradient(top, #B9C9FE, #3491B3);
+     background-image: -moz-linear-gradient(top, #B9C9FE, #3491B3);
+     background-image: -ms-linear-gradient(top, #B9C9FE, #3491B3);
+     background-image: -o-linear-gradient(top, #B9C9FE, #3491B3);
+     background-image: linear-gradient(to bottom, #B9C9FE, #3491B3);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#B9C9FE, endColorstr=#3491B3);
+  }
+  input[type=submit]:hover{
+   border:1px solid #547bfd;
+   background-color: #C3E3FA; background-image: -webkit-gradient(linear, left top, left bottom, from(#C3E3FA), to(#1D6EAD));
+   background-image: -webkit-linear-gradient(top, #C3E3FA, #1D6EAD);
+   background-image: -moz-linear-gradient(top, #C3E3FA, #1D6EAD);
+   background-image: -ms-linear-gradient(top, #C3E3FA, #1D6EAD);
+   background-image: -o-linear-gradient(top, #C3E3FA, #1D6EAD);
+   background-image: linear-gradient(to bottom, #C3E3FA, #1D6EAD);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#C3E3FA, endColorstr=#1D6EAD);
+   }
 input,
 .btn {
   width: 20%;
@@ -852,14 +891,14 @@ input:hover,
 
 @font-face { /*podpięcie czcionki, która musi być w tym samym folderze co projekt*/
     font-family: myFirstFont;
-    src: url(SafirScript.ttf); 
-	
+    src: url(SafirScript.ttf);
+
 
 }
 @font-face { /*podpięcie czcionki, która musi być w tym samym folderze co projekt*/
     font-family: mySecondFont;
-    src: url(Sweet.ttf); 
-	
+    src: url(Sweet.ttf);
+
 
 }
 .fonted { /**/
@@ -883,7 +922,3 @@ i.logo{
 
 	font-size:100px
 }
-
-
-
-
