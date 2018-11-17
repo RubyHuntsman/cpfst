@@ -5,7 +5,11 @@
 @container_width: 800px;
 
 body {
-  background: darken(@white, 5%);
+  background-image: -webkit-linear-gradient(bottom, #C3E3FA, #1D6EAD);
+ background-image: -moz-linear-gradient(bottom, #C3E3FA, #1D6EAD);
+ background-image: -ms-linear-gradient(bottom, #C3E3FA, #1D6EAD);
+ background-image: -o-linear-gradient(bottom, #C3E3FA, #1D6EAD);
+ background-image: linear-gradient(to top, #C3E3FA, #1D6EAD);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#C3E3FA, endColorstr=#1D6EAD);
   font-family: 'proxima-nova-soft', sans-serif;
   font-size: 14px;
   .font-smoothing;
