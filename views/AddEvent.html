@@ -14,32 +14,48 @@
 
 <body>
     <center>
-        <div class="fonted">
-            Beember
+        <div>
+            <!-- Logo, zaciąga font z css i klasę odpowiedzialną za rozmiar-->
+            <i class="logo" style="font-family :myFirstFont; color:white;"> Beember </i>
+
         </div>
         <img src="Beember.png" alt="Cup of beer">
+        <!-- Formularz logowania-->
+        <br size="1"></br> <!-- To robi odstępy między okienkami i guzikami-->
         <div class="container">
             <div class="form-group col-lg-2">
                 <div class="row">
                     <div class="col-md-2 col-md-offset-5"></div>
                     <form class="form-inline">
                         <div class="form-group mb-2">
-                            <input type="text" class="form-control" id="inputEventName" placeholder="Event name">
+                            <p class="small">
+                                <input type="text" class="form-control" id="inputEventName" placeholder="Event name">
+                            </p>
                         </div>
                         <div class="form-group mx-sm-3 mb-2">
-                            <input type="password" class="form-control" id="inputDescription" placeholder="Description">
+                            <p class="small">
+                                <input type="password" class="form-control" id="inputDescription" placeholder="Description">
+                            </p>
                         </div>
                         <div class="form-group mb-2">
-                            <input type="text" class="form-control" id="inputTown" placeholder="Town">
+                            <p class="small">
+                                <input type="text" class="form-control" id="inputTown" placeholder="Town">
+                            </p>
                         </div>
                         <div class="form-group mb-2">
-                            <input type="text" class="form-control" id="inputStreet" placeholder="Street">
+                            <p class="small">
+                                <input type="text" class="form-control" id="inputStreet" placeholder="Street">
+                            </p>
                         </div>
                         <div class="form-group mb-2">
-                            <input type="text" class="form-control" id="inputNumber" placeholder="Number">
+                            <p class="small">
+                                <input type="text" class="form-control" id="inputNumber" placeholder="Number">
+                            </p>
                         </div>
                         <div class="form-group mb-2">
-                            <input type="datetime-local" class="form-control" id="inputDate" placeholder="Date">
+                            <p class="small">
+                                <input type="datetime-local" class="form-control" id="inputDate" placeholder="Date">
+                            </p>
                         </div>
                         <p><a class="button_example btn" href="index.css">Create Event!</a></p>
                     </form>
