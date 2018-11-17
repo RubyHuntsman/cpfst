@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
 
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+	
+	<link rel="stylesheet" href="index.css">
+  
     <title>React App</title>
   </head>
   <body>
@@ -38,17 +38,36 @@
         </div>
       </div>
     </div>
-    <center><div class="form-group col-lg-2">
-          <div class="row">
-                  <div class="col-md-2 col-md-offset-5"></div>
-            <form class="form-inline">
-                  <div class="form-group mb-2">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email" style="left:50%">
-                  </div>
-                  <div class="form-group mx-sm-3 mb-2">
-                    <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-                  </div>
-                  <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+    <center><div class="login_form">
+  <form action="/action_page.php">
+    <div class="row">
+      <h2 style="text-align:center">Login with Social Media or Manually</h2>
+      <div class="vl">
+        <span class="vl-innertext">or</span>
+      </div>
+
+      <div class="col">
+        <a href="#" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+        </a>
+        <a href="#" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="#" class="google btn">
+          <i class="fa fa-google fa-fw"></i> Login with Google+
+        </a>
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Or sign in manually:</p>
+        </div>
+
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+      </div>
+
               </form>
           </div>
       </div></center>
