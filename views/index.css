@@ -103,7 +103,7 @@ h2 {
   background-color: rgba(255, 255, 255, 0.25);
   bottom: -10px;
   content: '';
-  height: 200px;
+  height: 230px;
   left: -40px;
   position: absolute;
   transform: rotate(30deg);
@@ -386,27 +386,56 @@ input,
   text-decoration: none; /* remove underline from anchors */
 }
 
+.button_signup{
+border:1px solid #829efd; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);; color: #FFFFFF;
+ background-color: #B9C9FE; background-image: -webkit-gradient(linear, left top, left bottom, from(#B9C9FE), to(#3491B3));
+ background-image: -webkit-linear-gradient(top, #B9C9FE, #3491B3);
+ background-image: -moz-linear-gradient(top, #B9C9FE, #3491B3);
+ background-image: -ms-linear-gradient(top, #B9C9FE, #3491B3);
+ background-image: -o-linear-gradient(top, #B9C9FE, #3491B3);
+ background-image: linear-gradient(to bottom, #B9C9FE, #3491B3);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#B9C9FE, endColorstr=#3491B3);
+}
+
+.button_signup:hover{
+ border:1px solid #547bfd;
+ background-color: #C3E3FA; background-image: -webkit-gradient(linear, left top, left bottom, from(#C3E3FA), to(#1D6EAD));
+ background-image: -webkit-linear-gradient(top, #C3E3FA, #1D6EAD);
+ background-image: -moz-linear-gradient(top, #C3E3FA, #1D6EAD);
+ background-image: -ms-linear-gradient(top, #C3E3FA, #1D6EAD);
+ background-image: -o-linear-gradient(top, #C3E3FA, #1D6EAD);
+ background-image: linear-gradient(to bottom, #C3E3FA, #1D6EAD);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#C3E3FA, endColorstr=#1D6EAD);
+ }
+
 input:hover,
 .btn:hover {
   opacity: 1;
 }
 
-@font-face {
+@font-face { /*podpięcie czcionki, która musi być w tym samym folderze co projekt*/
     font-family: myFirstFont;
-    src: url(SafirScript.ttf);
+    src: url(SafirScript.ttf); 
 	
 
 }
 
+.fonted { /**/
+    font-family: myFirstFont;
+	color: white;
+}
 
 p.small {
-    line-height: 0.2; /* odległości, chyba działa*/
+    line-height: 0.2;
 }
+
 p.smaller
 {
 	line-height:0.1;
 }
 i.logo{
 
-	font-size:100px /* Rozmiar logo */
+	font-size:100px
 }
+
+
+
+
